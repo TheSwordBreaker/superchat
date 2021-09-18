@@ -1,10 +1,12 @@
-# Vite + React + Typescript + Eslint + Prettier
+# React Firebase Super Chat
 
-A starter for React with Typescript with the fast Vite and all static code testing with Eslint and formatting with Prettier.
+A simple fullstack chat demo with React and Firebase. 
 
-![Vite + React + Typescript + Eslint + Prettier](/resources/screenshot.png)
 
-I found out about Vite and I wanted to have a boilerplate for the technologies that I use. You can find more about these in the following links: [Vite](https://github.com/vitejs/vite), [React](https://reactjs.org/), [Typescript](https://www.typescriptlang.org/), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/).
+[Live demo](https://fireship-demos.web.app
+
+
+![React Firebase Super Chat](/resources/screenshot.png)
 
 ## Installation
 

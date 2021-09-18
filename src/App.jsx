@@ -2,7 +2,7 @@ import './App.css';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
-// import 'firebase/compat/analytics';
+// import 'firebase/analytics';
 import firebase from 'firebase/compat/app';
 import React, { useRef, useState } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
