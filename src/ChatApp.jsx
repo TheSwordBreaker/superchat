@@ -4,7 +4,7 @@ import 'firebase/compat/firestore';
 
 // import 'firebase/analytics';
 import firebase from 'firebase/compat/app';
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
@@ -63,6 +63,12 @@ function ChatRoom() {
   const [messages] = useCollectionData(query, { idField: 'id' });
 
   const [formValue, setFormValue] = useState('');
+
+  useEffect(() => {
+    if (dummy.current !== null) {
+      dummy.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [messages]);
 
   const sendMessage = async (e) => {
     e.preventDefault();

@@ -3,14 +3,13 @@ import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
+import ChatApp from './ChatApp';
 
 console.log('Hi');
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <div>hii</div>
+    <ChatApp />
   </React.StrictMode>,
   document.getElementById('root'),
 );
